@@ -1,0 +1,45 @@
+﻿Build started 9/3/2015 5:44:25 AM.
+     1>Project "J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\3D_Game_Engine\3D_Game_Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AssImpModelLoader.cpp main.cpp MainGame.cpp Mesh.cpp ShaderNova.cpp Shape.cpp ViewPort.cpp WaveFrontMaterialParser.cpp WaveFrontObjectParser.cpp
+         WaveFrontObjectParser.cpp
+         WaveFrontMaterialParser.cpp
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\wavefrontmaterialparser.cpp(237): warning C4018: '<' : signed/unsigned mismatch
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\wavefrontmaterialparser.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+         ViewPort.cpp
+         Shape.cpp
+         ShaderNova.cpp
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\shadernova.cpp(31): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\shadernova.cpp(39): warning C4244: '-=' : conversion from 'std::streamoff' to 'int', possible loss of data
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\shadernova.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+         Mesh.cpp
+         MainGame.cpp
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\maingame.cpp(704): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\maingame.cpp(708): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\maingame.cpp(769): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>j:\visual_studio_projects\2013_professional\3d_game_engine_tutorial\3d_game_engine\3d_game_engine\maingame.cpp(773): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+         AssImpModelLoader.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Debug\3D_Game_Engine.exe" /INCREMENTAL /NOLOGO opengl32.lib glew32.lib SDL2.lib SDL2main.lib assimp.lib CORE_DB_Magick++_.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Debug\3D_Game_Engine.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Debug\3D_Game_Engine.lib" /MACHINE:X86 Debug\AssImpModelLoader.obj
+         Debug\Camera3D.obj
+         Debug\InputManager.obj
+         Debug\IOManager.obj
+         Debug\main.obj
+         Debug\MainGame.obj
+         Debug\Mesh.obj
+         Debug\ShaderNova.obj
+         Debug\Shape.obj
+         Debug\stb_image.obj
+         Debug\Texture.obj
+         Debug\ViewPort.obj
+         Debug\WaveFrontMaterialParser.obj
+         Debug\WaveFrontObjectParser.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         3D_Game_Engine.vcxproj -> J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Debug\3D_Game_Engine.exe
+     1>Done Building Project "J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\3D_Game_Engine\3D_Game_Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.06

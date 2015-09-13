@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ShaderManager">
+      <UniqueIdentifier>{ef42f782-48d8-4a0c-b762-f16a08840865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Source Files">
+      <UniqueIdentifier>{2472affe-27d0-47dc-b4a5-fea6b581c380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Header Files">
+      <UniqueIdentifier>{87d39d13-ee0d-4a15-af50-5f7d50b480de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Functionality">
+      <UniqueIdentifier>{42145930-cc46-48ca-b9b8-273b90636d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Functionality\Header Files">
+      <UniqueIdentifier>{6140b41a-029f-4a90-b549-351322698b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Functionality\Source Files">
+      <UniqueIdentifier>{f37c9473-26d1-441f-b914-db0d6a052246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models">
+      <UniqueIdentifier>{96b3b378-8e22-46ab-90af-35f1246021a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models\Header Files">
+      <UniqueIdentifier>{18558802-2414-4658-816d-d76de1eff56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models\Source Files">
+      <UniqueIdentifier>{090668a0-6270-494f-b8ce-8076e4716c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders">
+      <UniqueIdentifier>{c473e4de-c4b8-4871-820a-715daf918f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders\Vertex Shaders">
+      <UniqueIdentifier>{4340c567-da2b-40ef-a883-a9aa4a4dd32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderManager\Shaders\Fragment Shaders">
+      <UniqueIdentifier>{fdf106df-d17a-4cf2-b368-2acfdd3e2af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models\Main Game">
+      <UniqueIdentifier>{e5e748e3-b9c9-49b9-b674-2c607ebd1e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models\Main Game\Header Files">
+      <UniqueIdentifier>{292d4959-8022-4a21-bc5b-f1cef5f89072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry and Models\Main Game\Header Files\Source Files">
+      <UniqueIdentifier>{0606f500-5b37-4a21-8ac5-ea4f078eac32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>ShaderManager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPort.cpp">
+      <Filter>Core Functionality\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera3D.cpp">
+      <Filter>Core Functionality\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core Functionality\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>Core Functionality\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderNova.cpp">
+      <Filter>ShaderManager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssImpModelLoader.cpp">
+      <Filter>Geometry and Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Geometry and Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Geometry and Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Geometry and Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Geometry and Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Geometry and Models\Main Game\Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Geometry and Models\Main Game\Header Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>ShaderManager\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>ShaderManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPort.h">
+      <Filter>Core Functionality\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Core Functionality\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core Functionality\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera3D.h">
+      <Filter>Core Functionality\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderNova.h">
+      <Filter>ShaderManager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssImpModelLoader.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Geometry and Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Geometry and Models\Main Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lighting.h">
+      <Filter>ShaderManager\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\basicShaderFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\basicShaderVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\glowShaderFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\glowShaderVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\pointLightFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\pointLightVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\spotLightFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\spotLightVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\cubeShaderFragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\cubeShaderVertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\multiplePointLightFragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\multiplePointLightVertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\reflectionFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\reflectionVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\cubeShaderFragment - Copy.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\cubeShaderVertex - Copy.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\example_only_reflection.frag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\example_only_reflection.vs.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\dualConeSpotLightFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\Shaders\dualConeSpotLightVertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Assets\NewShaders\lighting.fs.glsl">
+      <Filter>ShaderManager\Shaders\Fragment Shaders</Filter>
+    </None>
+    <None Include="Assets\NewShaders\lighting.vs.glsl">
+      <Filter>ShaderManager\Shaders\Vertex Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

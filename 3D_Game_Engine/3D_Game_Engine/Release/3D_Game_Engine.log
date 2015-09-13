@@ -1,0 +1,31 @@
+﻿Build started 9/9/2015 4:49:25 AM.
+     1>Project "J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\3D_Game_Engine\3D_Game_Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
+         MainGame.cpp
+     1>MainGame.cpp(44): warning C4154: deletion of an array expression; conversion to pointer supplied
+     1>MainGame.cpp(45): warning C4154: deletion of an array expression; conversion to pointer supplied
+     1>MainGame.cpp(46): warning C4154: deletion of an array expression; conversion to pointer supplied
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Release\3D_Game_Engine.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glew32.lib SDL2.lib SDL2main.lib assimp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Release\3D_Game_Engine.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Release\3D_Game_Engine.lib" /MACHINE:X86 /SAFESEH Release\Lighting.obj
+         Release\AssImpModelLoader.obj
+         Release\Camera3D.obj
+         Release\InputManager.obj
+         Release\IOManager.obj
+         Release\main.obj
+         Release\MainGame.obj
+         Release\Mesh.obj
+         Release\ShaderManager.obj
+         Release\ShaderNova.obj
+         Release\Shape.obj
+         Release\stb_image.obj
+         Release\Texture.obj
+         Release\ViewPort.obj
+         Generating code
+         Finished generating code
+         3D_Game_Engine.vcxproj -> J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\Release\3D_Game_Engine.exe
+     1>Done Building Project "J:\Visual_Studio_Projects\2013_Professional\3D_Game_Engine_Tutorial\3D_Game_Engine\3D_Game_Engine\3D_Game_Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.10
